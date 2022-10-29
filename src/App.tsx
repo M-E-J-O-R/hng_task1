@@ -12,6 +12,7 @@ function App() {
         <section className='profile_section'>
           <img id='profile__img' src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt='profile' />
           <p id='twitter'>Amujo Babatunde</p>
+          <span  id='slack'> Mejor</span>
         </section>
 
       </header>
@@ -32,20 +33,26 @@ function App() {
           <a id='book design' href='https://books.zuri.team/design-rules' target={'_blank'} rel="noreferrer">Design Books</a>
 
           <div className='social_media'>
-            <img src={slack} alt="" />
-            <img src={github} alt="" />
+         
+              <img  src={slack} alt="" />
+          
+            <a href="https://github.com/M-E-J-O-R">
+              <img src={github} alt="" />
+            </a>
+
+
           </div>
         </section>
 
 
       </main>
-      <hr  />
+      <hr />
 
       <footer>
         <section className='zuri_footer'>
 
-          <img src={zuriInternshipLogo} alt="" />
-          <p></p>
+
+          <p>Zuri<b>.</b>Intership</p>
           <p>HNG Internship 9 Frontend Task</p>
           <img src={motto} alt="motto" />
         </section>
