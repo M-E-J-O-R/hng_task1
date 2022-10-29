@@ -74,12 +74,14 @@ footer {
 .zuri_footer {
   display: flex;
   width: 85vw;
+  font-size: 1.2rem;
   padding: 2rem 0;
   align-items: center;
   justify-content: space-between;
   border-top: 1px solid gray;
   p {
     font-weight: bold;
+    
     b {
       font-size: 2rem;
       color: red;
