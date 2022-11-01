@@ -26,7 +26,7 @@ function App() {
 
           <a id='books' href='http://books.zuri.team' target={'_blank'} rel="noreferrer">Zuri Books</a>
 
-          <a id='book__python' href='https://books.zuri.team/python-for-beginners' target={'_blank'} rel="noreferrer">Python Books</a>
+          <a id='book__python' href='https://books.zuri.team/python-for-beginners?ref_id=mejor' target={'_blank'} rel="noreferrer">Python Books</a>
 
           <a id='pitch' href='https://background.zuri.team' target={'_blank'} rel="noreferrer">Background Checks for Coders</a>
 
