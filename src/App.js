@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header>
         <section className='profile_section'>
-          <img id='profile__img' src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt='profile' />
+          <img id='profile__img' src="https://images.unsplash.com/photo-1474447976065-67d23accb1e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=385&q=80" alt='profile' />
           <h4>Amujo Babatunde</h4>
           <span id='slack'>Slack: Mejor</span>
 
