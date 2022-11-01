@@ -30,7 +30,7 @@ function App() {
 
           <a id='pitch' href='https://background.zuri.team' target={'_blank'} rel="noreferrer">Background Checks for Coders</a>
 
-          <a id='book design' href='https://books.zuri.team/design-rules' target={'_blank'} rel="noreferrer">Design Books</a>
+          <a id='book__design' href='https://books.zuri.team/design-rules' target={'_blank'} rel="noreferrer">Design Books</a>
 
           <div className='social_media'>
 
