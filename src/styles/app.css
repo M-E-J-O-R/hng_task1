@@ -82,9 +82,6 @@ footer {
   justify-content: space-between;
   border-top: 1px solid gray;
 }
-.zuri_footer p {
-  font-weight: bold;
-}
 .zuri_footer p b {
   font-size: 2rem;
   color: red;
