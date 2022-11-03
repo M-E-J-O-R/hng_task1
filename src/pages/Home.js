@@ -31,7 +31,7 @@ const Home = () => {
 
                     <a id='book__design' href='https://books.zuri.team/design-rules' target={'_blank'} rel="noreferrer">Design Books</a>
 
-                    <Link to={'/contact'}>Contact Me</Link>
+                    <Link id='contact' to={'/contact'}>Contact Me</Link>
 
                     <div className='social_media'>
 
