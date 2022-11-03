@@ -91,7 +91,7 @@ footer {
 
 @media screen and (max-width: 700px) {
   .App {
-    padding: 2rem 0 0 0;
+    padding: 4rem 0;
     hr {
       display: block;
       width: 90%;
@@ -103,9 +103,8 @@ footer {
   .zuri_footer {
     width: 80vw;
     border: 0;
-    padding: 0;
     flex-direction: column;
-    gap: 1.5rem;
-  
+    gap: 1rem;
+    align-items: flex-start;
   }
 }
