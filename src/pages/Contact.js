@@ -1,5 +1,7 @@
 import '../styles/contact.css'
+import { useNavigate } from 'react-router-dom';
 const Contact = () => {
+    let navigate = useNavigate()
     return (
         <div className="Contact">
             <header className='contact-header'>
@@ -37,7 +39,7 @@ const Contact = () => {
                         You agree to providing your data to Amujo Babatunde who may contact you.
                     </label>
 
-                    <button id='btn__submit'> Send Message</button>
+                    <button onClick={() => navigate('/')} id='btn__submit'> Send Message</button>
 
                 </form>
             </main>
