@@ -1,6 +1,7 @@
 import github from '../assests/github.svg';
 import slack from '../assests/slack-logo.svg';
 import motto from '../assests/motto.svg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (<>
@@ -29,6 +30,8 @@ const Home = () => {
                     <a id='pitch' href='https://background.zuri.team' target={'_blank'} rel="noreferrer">Background Checks for Coders</a>
 
                     <a id='book__design' href='https://books.zuri.team/design-rules' target={'_blank'} rel="noreferrer">Design Books</a>
+
+                    <Link to={'/contact'}>Contact Me</Link>
 
                     <div className='social_media'>
 
