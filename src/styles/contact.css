@@ -12,6 +12,7 @@
 }
 
 .form-container {
+  width: 720px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -62,7 +63,7 @@
   color: #667085;
 }
 .form-container button {
-  width: 720px;
+  width: 100%;
   height: 48px;
   margin-top: 8px;
   background: #1570ef;
@@ -77,8 +78,8 @@ label {
   flex-direction: column;
   gap: 6px;
 }
-label #first__name,
-label #last__name {
+label #first_name,
+label #last_name {
   width: 348px;
 }
 label #email,
@@ -93,10 +94,29 @@ label #terms {
 .terms {
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 0.75rem;
 }
 
 .contact__name {
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 750px) {
+  .Contact {
+    width: 90vw;
+    min-height: 100vh;
+    padding-top: 3rem;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .contact__name {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  label #first_name, label #last_name {
+    width: 90vw;
+  }
 }/*# sourceMappingURL=contact.css.map */

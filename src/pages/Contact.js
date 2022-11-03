@@ -12,11 +12,11 @@ const Contact = () => {
                     <section className='contact__name'>
                         <label htmlFor="first_name">
                             First name
-                            <input required type="text" id="first__name" placeholder="Enter your first name" />
+                            <input required type="text" id="first_name" placeholder="Enter your first name" />
                         </label>
                         <label htmlFor="last_name">
                             Last name
-                            <input required type="text" id="last__name" placeholder="Enter your last name" />
+                            <input required type="text" id="last_name" placeholder="Enter your last name" />
                         </label>
 
                     </section>
