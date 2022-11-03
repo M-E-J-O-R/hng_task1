@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Inter&display=swap");
+.Contact {
+  width: 720px;
+  font-family: "Inter", sans-serif;
+}
+
+.contact-header p {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  line-height: 30px;
+  color: #475467;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+.form-container input {
+  padding: 10px 14px;
+  outline: none;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.form-container input::-moz-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.form-container input:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.form-container input::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.form-container textarea {
+  padding: 12px 14px;
+  height: 132px;
+  resize: none;
+  outline: none;
+  overflow: auto;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+.form-container textarea::-moz-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.form-container textarea:-ms-input-placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.form-container textarea::placeholder {
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+}
+.form-container button {
+  width: 720px;
+  height: 48px;
+  margin-top: 8px;
+  background: #1570ef;
+  border: 1px solid #1570ef;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+label {
+  display: flex;
+  font-size: 14px;
+  flex-direction: column;
+  gap: 6px;
+}
+label #first__name,
+label #last__name {
+  width: 348px;
+}
+label #email,
+label #message {
+  width: 100%;
+}
+label #terms {
+  width: 20px;
+  height: 20px;
+}
+
+.terms {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+.contact__name {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=contact.css.map */
