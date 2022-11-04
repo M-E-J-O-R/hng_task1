@@ -2,14 +2,21 @@ import '../styles/contact.css'
 import { useNavigate } from 'react-router-dom';
 const Contact = () => {
     let navigate = useNavigate()
+
+    const handleSubmit = (e) => {
+        e.preventDefault()       
+        setTimeout(navigate('/'),500)
+    }
     return (
         <div className="Contact">
+
             <header className='contact-header'>
                 <h1>Contact Me</h1>
                 <p>Hi there, contact me to ask me about anything in you have in your mind</p>
             </header>
+
             <main>
-                <form className='form-container'>
+                <form onSubmit={handleSubmit} className='form-container'>
 
                     <section className='contact__name'>
                         <label htmlFor="first_name">
@@ -38,10 +45,11 @@ const Contact = () => {
                         <input required type="checkbox" id='terms' />
                         You agree to providing your data to Amujo Babatunde who may contact you.
                     </label>
-
-                    <button onClick={() => navigate('/')} id='btn__submit'> Send Message</button>
+                    <button  id='btn__submit'> Send Message</button>
 
                 </form>
+               
+
             </main>
 
 

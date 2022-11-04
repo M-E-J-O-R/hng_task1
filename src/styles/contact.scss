@@ -12,7 +12,7 @@
   }
 }
 .form-container {
-width: 720px;
+  width: 720px;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -45,7 +45,8 @@ width: 720px;
       color: #667085;
     }
   }
-  button {
+
+  #btn__submit {
     width: 100%;
     height: 48px;
     margin-top: 8px;
@@ -73,6 +74,10 @@ label {
     height: 20px;
   }
 }
+.contact__name {
+  display: flex;
+  justify-content: space-between;
+}
 .terms {
   display: flex;
   flex-direction: row;
@@ -80,28 +85,23 @@ label {
   gap: 0.75rem;
 }
 
-.contact__name {
-  display: flex;
-  justify-content: space-between;
-}
 @media screen and (max-width: 750px) {
   .Contact {
-    width: 90vw; 
+    width: 90vw;
     min-height: 100vh;
     padding-top: 3rem;
   }
-  .form-container{
+  .form-container {
     width: 100%;
   }
-  .contact__name{
+  .contact__name {
     flex-direction: column;
     gap: 1.5rem;
-   
   }
-  label{
-    #first_name,#last_name{
-        width:90vw;
+  label {
+    #first_name,
+    #last_name {
+      width: 90vw;
     }
   }
-
 }

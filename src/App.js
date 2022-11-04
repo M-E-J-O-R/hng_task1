@@ -1,5 +1,5 @@
 
-import { Routes,Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
 import './styles/home.css';
@@ -10,13 +10,14 @@ function App() {
     <>
       <div className='App'>
 
-    
-       <Routes>
-        <Route path='/' element={ <Home/>} />
-        <Route path='/contact' element={ <Contact/>} />
-        </Routes> 
-        </div>
-      
+
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/contact' element={<Contact />} />
+         
+        </Routes>
+      </div>
+
     </>
   );
 }
