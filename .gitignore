@@ -11,6 +11,9 @@
 # production
 /build
 
+#map
+.map
+
 # misc
 .DS_Store
 .env.local
@@ -24,4 +27,4 @@ yarn-error.log*
 
 .vercel
 
-.map
+

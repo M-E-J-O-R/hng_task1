@@ -16,6 +16,7 @@ const Home = () => {
                 </section>
 
             </header>
+            
             <main>
                 <section className='link_section'>
 
