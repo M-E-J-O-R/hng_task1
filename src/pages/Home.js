@@ -2,6 +2,7 @@ import github from '../assests/github.svg';
 import slack from '../assests/slack-logo.svg';
 import motto from '../assests/motto.svg';
 import { Link } from 'react-router-dom';
+import '../styles/home.css'
 
 const Home = () => {
     return (<>

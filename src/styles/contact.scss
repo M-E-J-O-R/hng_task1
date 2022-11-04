@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Inter&display=swap");
 .Contact {
   width: 720px;
+  min-height: 100vh;
+  margin: 0 auto;
+ 
   font-family: "Inter", sans-serif;
 }
 .contact-header {
@@ -89,7 +92,7 @@ label {
   .Contact {
     width: 90vw;
     min-height: 100vh;
-    padding-top: 3rem;
+    padding: 1rem 0;
   }
   .form-container {
     width: 100%;

@@ -3,13 +3,9 @@
   box-sizing: border-box;
   margin: 0;
 }
-body {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 .Home {
+  min-height: 100vh;  
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -97,7 +93,7 @@ footer {
       width: 90%;
     }
   }
-  .profile_section {
+  .link_section>a {
     width: 90vw;
   }
   .zuri_footer {
