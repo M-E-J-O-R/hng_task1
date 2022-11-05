@@ -1,12 +1,16 @@
 import '../styles/contact.css'
 import { useNavigate } from 'react-router-dom';
 const Contact = () => {
-    let navigate = useNavigate()
+    let navigate = useNavigate() //navigation 
 
+
+    //this function prevents default submission and also help navigate back to the Home page
     const handleSubmit = (e) => {
-        e.preventDefault()       
+                e.preventDefault()       
         setTimeout(navigate('/'),500)
     }
+
+
     return (
         <div className="Contact">
 
@@ -15,6 +19,7 @@ const Contact = () => {
                 <p>Hi there, contact me to ask me about anything in you have in your mind</p>
             </header>
 
+            {/* This contains the user form */}
             <main>
                 <form onSubmit={handleSubmit} className='form-container'>
 
