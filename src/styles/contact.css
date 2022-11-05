@@ -82,7 +82,7 @@
   transition: all 0.1s linear;
 }
 .form-container #btn__submit:hover {
-  transform: scale(0.95);
+  transform: scale(0.995);
 }
 
 label {

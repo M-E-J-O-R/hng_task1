@@ -54,7 +54,6 @@
 .link_section > a:hover {
   background-color: rgba(179, 183, 190, 0.8823529412);
   transform: scale(1.005);
-  color: rgb(81, 81, 216);
 }
 .link_section .social_media {
   display: flex;
@@ -67,10 +66,6 @@
   display: block;
   width: 25px;
   height: 25px;
-}
-
-footer {
-  padding: 2rem 0;
 }
 
 .zuri_footer {
