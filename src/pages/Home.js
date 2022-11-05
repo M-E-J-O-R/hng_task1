@@ -19,14 +19,12 @@ const Home = () => {
             <main>
                 <LinkCard />
             </main>
-            
+
             <hr />
 
             <footer>
                 <HomeFooter />
             </footer>
-
-
 
         </div>
     </>);
